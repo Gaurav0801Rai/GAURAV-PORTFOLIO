@@ -32,7 +32,7 @@ export const personalInfo = {
   },
   summary:
     "Aspiring Product Manager pursuing structured PM training through NextLeap, with hands-on experience in user research, product discovery, MVP planning, wireframing, prototyping, and AI-assisted product workflows. Passionate about solving user problems through structured product thinking, experimentation, and intuitive digital experiences.",
-  resumeUrl: "/Gaurav_Kumar_Resume.pdf",
+  resumeUrl: "/Gaurav_Kumar_CV.pdf",
 };
 
 export const socialLinks = {
@@ -51,7 +51,7 @@ export const heroContent = {
     text: "Contact Me",
     href: "mailto:digitally.gaurav08@gmail.com?subject=Inquiry – Portfolio&body=Hello Gaurav,%0D%0A%0D%0AI came across your portfolio and would like to connect with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
   },
-  ctaResume: { text: "Download CV", href: "/Gaurav_Kumar_Resume.pdf" },
+  ctaResume: { text: "Download CV", href: "/Gaurav_Kumar_CV.pdf" },
 };
 
 export const aboutContent = {

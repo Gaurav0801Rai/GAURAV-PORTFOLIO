@@ -157,6 +157,17 @@ const Hero = () => {
             )}
           </div>
 
+          {/* Top Fellow Honor Badge */}
+          {heroContent.topBadge && (
+            <div 
+              data-aos="fade-up"
+              data-aos-delay="50"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-500 text-black text-xs md:text-sm font-black mb-4 shadow-[0_0_20px_rgba(245,158,11,0.6)] tracking-wide border border-white/80 uppercase"
+            >
+              <span>{heroContent.topBadge}</span>
+            </div>
+          )}
+
           {/* Main Heading */}
           <h1 
             data-aos="fade-up"

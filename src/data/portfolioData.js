@@ -18,6 +18,10 @@ import gra2 from '../assets/projects/groww-analyzer-2.png';
 import pep1 from '../assets/projects/peppo-1.png';
 import cv1 from '../assets/projects/chatgpt-voice-1.png';
 import ss1 from '../assets/projects/smart-society-1.png';
+import b1 from '../assets/projects/blinkit-1.png';
+import b2 from '../assets/projects/blinkit-2.png';
+import b3 from '../assets/projects/blinkit-3.png';
+import b4 from '../assets/projects/blinkit-4.png';
 
 
 export const personalInfo = {
@@ -31,7 +35,7 @@ export const personalInfo = {
     primary: "digitally.gaurav08@gmail.com",
   },
   summary:
-    "Aspiring Product Manager pursuing structured PM training through NextLeap, with hands-on experience in user research, product discovery, MVP planning, wireframing, prototyping, and AI-assisted product workflows. Passionate about solving user problems through structured product thinking, experimentation, and intuitive digital experiences.",
+    "Top Fellow in NextLeap Product Manager Fellowship with hands-on experience in user research, product discovery, MVP planning, wireframing, prototyping, and AI-assisted product workflows. Passionate about solving user problems through structured product thinking, experimentation, and intuitive digital experiences.",
   resumeUrl: "/Gaurav_Kumar_CV.pdf",
 };
 
@@ -42,6 +46,7 @@ export const socialLinks = {
 };
 
 export const heroContent = {
+  topBadge: "🏆 Top Fellow — NextLeap Product Manager Fellowship",
   greeting: "Hi, I'm Gaurav Kumar",
   titleHighlight: "Product Manager & AI Builder",
   subtitle:
@@ -56,7 +61,7 @@ export const heroContent = {
 
 export const aboutContent = {
   heading: "Hello!",
-  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Gaurav Kumar</span>, an aspiring Product Manager and AI builder based in Prayagraj, India, dedicated to translating user insights into impactful digital experiences and building robust agentic systems.`,
+  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Gaurav Kumar</span>, an aspiring Product Manager and AI builder recognized as the <span class="text-black text-xl font-black underline decoration-[#000000] underline-offset-4 mx-1 uppercase">TOP FELLOW</span> in the NextLeap PM Fellowship. Dedicated to translating user insights into impactful digital experiences and building robust agentic systems.`,
   techStack: ["Product Strategy", "User Research", "AI Prototyping"],
 };
 
@@ -150,8 +155,33 @@ export const softSkillsList = [
 
 export const projects = [
   {
-    id: "finsage",
+    id: "blinkit-discovery",
     number: "01",
+    badge: "🏆 Top Fellow Winning Capstone",
+    title: "Blinkit Category Discovery Layer",
+    description:
+      "AI-Native Category Discovery & Retention Engine. Identified a critical quick-commerce barrier where 85% of habitual buyers reordered groceries without discovering high-margin categories (cosmetics, pet food, baby care). Conducted research across 80+ survey respondents and qualitative interviews. Designed & built the Discovery Layer featuring household-tuned discovery strips, category trust signals, and a Groq AI Checkout Nudge ('Why this?' context generator) with an Unlock & Rotate habit loop.",
+    techTags: [
+      "Product Strategy",
+      "Groq AI",
+      "LLM Nudges",
+      "User Research",
+      "RICE Framework",
+      "Next.js",
+      "Vercel",
+    ],
+    links: {
+      demo: "https://blinkit-discovery.vercel.app",
+      aiEngine: "https://blinkit-reviews-engine.vercel.app",
+      ppt: "/NL BLINKIT.pdf",
+      github: "https://github.com/Gaurav0801Rai/BLINKIT-DISCOVERY",
+    },
+    isFlagship: true,
+    images: [b1, b2, b3, b4],
+  },
+  {
+    id: "finsage",
+    number: "02",
     badge: "🚀 Flagship Product",
     title: "FinSage",
     description:
@@ -174,7 +204,7 @@ export const projects = [
   },
   {
     id: "groww-analyzer",
-    number: "02",
+    number: "03",
     badge: null,
     title: "Groww Review Analyzer",
     description:
@@ -190,7 +220,7 @@ export const projects = [
   },
   {
     id: "groww-mf",
-    number: "03",
+    number: "04",
     badge: null,
     title: "GROWW-MF",
     description:
@@ -205,7 +235,7 @@ export const projects = [
   },
   {
     id: "chatgpt-voice",
-    number: "04",
+    number: "05",
     badge: null,
     title: "ChatGPT Voice Adoption Research",
     description:
@@ -219,7 +249,7 @@ export const projects = [
   },
   {
     id: "peppo-growth",
-    number: "05",
+    number: "06",
     badge: null,
     title: "Peppo Growth & Segmentation Case Study",
     description:
@@ -233,7 +263,7 @@ export const projects = [
   },
   {
     id: "smart-society",
-    number: "06",
+    number: "07",
     badge: null,
     title: "Smart Society",
     description:
@@ -250,6 +280,20 @@ export const projects = [
 
 export const certificates = {
   featured: [
+    {
+      name: "Top Fellow Award — PM Fellowship",
+      issuer: "NextLeap",
+      icon: "🏆",
+      url: "/TOP FELLOW CERTIFICATE.png",
+      pdf: "/TOP FELLOW CERTIFICATE.png"
+    },
+    {
+      name: "Product Manager Fellowship Completion",
+      issuer: "NextLeap",
+      icon: "📜",
+      url: "/Completion certificate.pdf",
+      pdf: "/Completion certificate.pdf"
+    },
     {
       name: "Systems Thinking & Mapping Outcomes",
       issuer: "NextLeap",

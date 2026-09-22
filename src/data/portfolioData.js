@@ -51,6 +51,7 @@ export const socialLinks = {
 
 export const heroContent = {
   topBadge: "🏆 Top Fellow — NextLeap Product Manager Fellowship",
+  topBadgeLink: "/TOP FELLOW CERTIFICATE.png",
   greeting: "Hi, I'm Gaurav Kumar",
   titleHighlight: "Aspiring Product Manager & AI Builder",
   subtitle:

@@ -22,13 +22,17 @@ import b1 from '../assets/projects/blinkit-1.png';
 import b2 from '../assets/projects/blinkit-2.png';
 import b3 from '../assets/projects/blinkit-3.png';
 import b4 from '../assets/projects/blinkit-4.png';
+import nk1 from '../assets/projects/nykaa-1.png';
+import nk2 from '../assets/projects/nykaa-2.png';
+import nk3 from '../assets/projects/nykaa-3.png';
+import nk4 from '../assets/projects/nykaa-4.png';
 
 
 export const personalInfo = {
   name: "Gaurav Kumar",
   firstName: "Gaurav",
   brandName: "Gaurav Kumar",
-  title: "Product Manager & AI Builder",
+  title: "Aspiring Product Manager & AI Builder",
   location: "Prayagraj, Uttar Pradesh, India",
   phone: "+91 99369-31704",
   emails: {
@@ -36,7 +40,7 @@ export const personalInfo = {
   },
   summary:
     "Top Fellow in NextLeap Product Manager Fellowship with hands-on experience in user research, product discovery, MVP planning, wireframing, prototyping, and AI-assisted product workflows. Passionate about solving user problems through structured product thinking, experimentation, and intuitive digital experiences.",
-  resumeUrl: "/Gaurav_Kumar_CV.pdf",
+  resumeUrl: "/GAURAV_KUMAR_CV.pdf",
 };
 
 export const socialLinks = {
@@ -48,7 +52,7 @@ export const socialLinks = {
 export const heroContent = {
   topBadge: "🏆 Top Fellow — NextLeap Product Manager Fellowship",
   greeting: "Hi, I'm Gaurav Kumar",
-  titleHighlight: "Product Manager & AI Builder",
+  titleHighlight: "Aspiring Product Manager & AI Builder",
   subtitle:
     "I craft user-centric product strategies and build AI-powered solutions to solve real-world problems.",
   ctaPrimary: { text: "View My Work", href: "#projects" },
@@ -56,7 +60,7 @@ export const heroContent = {
     text: "Contact Me",
     href: "mailto:digitally.gaurav08@gmail.com?subject=Inquiry – Portfolio&body=Hello Gaurav,%0D%0A%0D%0AI came across your portfolio and would like to connect with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
   },
-  ctaResume: { text: "Download CV", href: "/Gaurav_Kumar_CV.pdf" },
+  ctaResume: { text: "Download CV", href: "/GAURAV_KUMAR_CV.pdf" },
 };
 
 export const aboutContent = {
@@ -180,8 +184,32 @@ export const projects = [
     images: [b1, b2, b3, b4],
   },
   {
-    id: "finsage",
+    id: "nykaa-fashion",
     number: "02",
+    badge: "✨ PM Case Study & Live AI MVP",
+    title: "Nykaa Fashion Wishlist-to-Purchase",
+    description:
+      "Self-Directed PM Case Study. Led the end-to-end product lifecycle to solve wishlist abandonment on Nykaa Fashion without monetary incentives, targeting a 30-day conversion window. Built an AI discovery engine analyzing 279 real feedback items across Play Store (162), Reddit (84 via Apify), and web forums into a 15-blocker taxonomy (revealing 25.1% decision friction). Validated via 42 survey responses & 5 user interviews to uncover core barriers: unstructured list bloat and absence at checkout. Prioritized solutions via RICE (WishSense scored 86 vs Reminders 60 & Stylist 37), and built & deployed WishSense MVP (Next.js, Groq Llama 3) featuring 0–100 confidence scoring, categorized saves, and wishlist-sourced cart pairings.",
+    techTags: [
+      "PM Case Study",
+      "Next.js",
+      "Groq AI",
+      "User Research (n=42)",
+      "RICE Framework",
+      "Python & Apify",
+      "Vercel",
+    ],
+    links: {
+      demo: "https://nykaa-mvp.vercel.app/",
+      aiEngine: "https://nykaa-wishlist-discovery.vercel.app/",
+      ppt: "/NL NYKAA FASHION.pdf",
+    },
+    isFlagship: true,
+    images: [nk1, nk2, nk3, nk4],
+  },
+  {
+    id: "finsage",
+    number: "03",
     badge: "🚀 Flagship Product",
     title: "FinSage",
     description:
@@ -204,7 +232,7 @@ export const projects = [
   },
   {
     id: "groww-analyzer",
-    number: "03",
+    number: "04",
     badge: null,
     title: "Groww Review Analyzer",
     description:
@@ -220,7 +248,7 @@ export const projects = [
   },
   {
     id: "groww-mf",
-    number: "04",
+    number: "05",
     badge: null,
     title: "GROWW-MF",
     description:
@@ -235,7 +263,7 @@ export const projects = [
   },
   {
     id: "chatgpt-voice",
-    number: "05",
+    number: "06",
     badge: null,
     title: "ChatGPT Voice Adoption Research",
     description:
@@ -249,7 +277,7 @@ export const projects = [
   },
   {
     id: "peppo-growth",
-    number: "06",
+    number: "07",
     badge: null,
     title: "Peppo Growth & Segmentation Case Study",
     description:
@@ -263,7 +291,7 @@ export const projects = [
   },
   {
     id: "smart-society",
-    number: "07",
+    number: "08",
     badge: null,
     title: "Smart Society",
     description:

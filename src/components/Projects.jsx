@@ -80,6 +80,7 @@ const ProjectScreenshotCarousel = ({ images, title }) => {
 
 const ProjectPlaceholder = ({ title, id }) => {
   const gradients = {
+    "nykaa-fashion": "from-rose-950/70 to-pink-950/70",
     "groww-analyzer": "from-teal-950/70 to-emerald-950/70",
     "chatgpt-voice": "from-purple-950/70 to-indigo-950/70",
     "peppo-growth": "from-orange-950/70 to-red-950/70",

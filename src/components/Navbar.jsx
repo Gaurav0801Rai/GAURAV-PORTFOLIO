@@ -57,7 +57,18 @@ const Navbar = () => {
         </div>
 
         {/* Right Side: CTA Button */}
-        <div className="hidden md:block">
+        <div className="hidden md:flex items-center gap-3">
+          <a 
+            href={personalInfo.resumeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 rounded-full border border-white/20 text-white text-sm font-semibold hover:bg-white/10 hover:border-white/40 transition-all duration-300 backdrop-blur-md flex items-center gap-1.5"
+          >
+            <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+            CV
+          </a>
           <a 
             href={hireMeMailto}
             className="px-6 py-2.5 rounded-full bg-white/10 border border-white/20 text-white font-semibold hover:bg-white/20 hover:shadow-[0_0_15px_rgba(255,255,255,0.2)] transition-all duration-300 backdrop-blur-md"
@@ -94,13 +105,25 @@ const Navbar = () => {
             <a 
               key={link} 
               href={`#${link.toLowerCase()}`}
-              onClick={() => setIsOpen(false)}
+              onClick={() => setIsOpen(false)} 
               className="text-white hover:text-black font-bold text-lg border-b border-white/20 pb-2 transition-colors"
             >
               {link}
             </a>
           ))}
-          <div className="pt-4 pb-2">
+          <div className="pt-4 pb-2 flex flex-col gap-2.5">
+             <a 
+               href={personalInfo.resumeUrl}
+               target="_blank"
+               rel="noopener noreferrer"
+               onClick={() => setIsOpen(false)} 
+               className="inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-full border border-white/40 text-white font-bold hover:bg-white/10 transition-colors w-full text-center"
+             >
+               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+               </svg>
+               View CV
+             </a>
              <a 
                href={hireMeMailto}
                onClick={() => setIsOpen(false)} 

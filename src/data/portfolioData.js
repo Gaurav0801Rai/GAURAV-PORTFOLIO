@@ -320,7 +320,7 @@ export const certificates = {
       name: "Product Manager Fellowship Completion",
       issuer: "NextLeap",
       icon: "📜",
-      url: "/Completion certificate.pdf",
+      url: "https://nextleap.app/certificates/verify/nlcertdujdmuvmyj3ec5uo",
       pdf: "/Completion certificate.pdf"
     },
     {

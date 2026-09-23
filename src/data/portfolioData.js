@@ -51,7 +51,7 @@ export const socialLinks = {
 
 export const heroContent = {
   topBadge: "🏆 Top Fellow — NextLeap Product Manager Fellowship",
-  topBadgeLink: "/TOP FELLOW CERTIFICATE.png",
+  topBadgeLink: "https://nextleap.app/certificates/verify/nlcert1j3udins4rnxiu1l",
   greeting: "Hi, I'm Gaurav Kumar",
   titleHighlight: "Aspiring Product Manager & AI Builder",
   subtitle:
@@ -66,7 +66,7 @@ export const heroContent = {
 
 export const aboutContent = {
   heading: "Hello!",
-  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Gaurav Kumar</span>, an aspiring Product Manager and AI builder recognized as the <span class="text-black text-xl font-black underline decoration-[#000000] underline-offset-4 mx-1 uppercase">TOP FELLOW</span> in the NextLeap PM Fellowship. Dedicated to translating user insights into impactful digital experiences and building robust agentic systems.`,
+  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Gaurav Kumar</span>, an aspiring Product Manager and AI builder recognized as the <a href="https://nextleap.app/certificates/verify/nlcert1j3udins4rnxiu1l" target="_blank" rel="noopener noreferrer" class="text-black text-xl font-black underline decoration-[#000000] underline-offset-4 mx-1 uppercase hover:text-white transition-colors" title="Verify NextLeap Top Fellow Certificate">TOP FELLOW</a> in the NextLeap PM Fellowship. Dedicated to translating user insights into impactful digital experiences and building robust agentic systems.`,
   techStack: ["Product Strategy", "User Research", "AI Prototyping"],
 };
 
@@ -313,7 +313,7 @@ export const certificates = {
       name: "Top Fellow Award — PM Fellowship",
       issuer: "NextLeap",
       icon: "🏆",
-      url: "/TOP FELLOW CERTIFICATE.png",
+      url: "https://nextleap.app/certificates/verify/nlcert1j3udins4rnxiu1l",
       pdf: "/TOP FELLOW CERTIFICATE.png"
     },
     {
